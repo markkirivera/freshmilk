@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Fresh Milk</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid sticky-top nav-container">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="https://img.icons8.com/cotton/30/000000/tetra-pak.png" alt="" srcset=""> Fresh Milk
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
+                    </li>
+                    <div class="categories-sm nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <li><a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                role="tab" aria-controls="v-pills-home" aria-selected="true">Promotions</a></li>
+                        <li><a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                role="tab" aria-controls="v-pills-profile" aria-selected="false">Fresh</a></li>
+                        <li><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                                role="tab" aria-controls="v-pills-messages" aria-selected="false">Frozen</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Cooking</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Baking</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Canned Goods</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Dairy and Eggs</a>
+                        </li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Beverage</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Snacks</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Breads and
+                                Pastries</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Personal Care</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Medicine</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Household</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Baby and Toddler
+                                Care</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Pets</a></li>
+                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                                role="tab" aria-controls="v-pills-settings" aria-selected="false">Alcoholic
+                                Beverages</a></li>
+                    </div>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid text-center" id="banner">
+        <div class="content">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJvSURBVGhD7Zc9axRRFIaPCrG1FvUHaGXjFiJiswsGslVMYRRTiAY0KIiNCVuI3jtRCEtyZvUHSGD/gHZ22sXKwlaT2PvRqGS8Z/YMzI7HcXfm3NGRfeAh7N65876HzOzOwoT/lb0erJL8sl5Q8egJRGTthkiXr90QUvlEaYiv9+AxyS8VWLw47dyGpSsR2OUIQhsBmh/u7ztAexf6/QN85C/klU9MDxGXX4YoVm2I6/MfYHE+il1aGAyQFs0mHznEKOUT6dih8qpD/GmAgS0+Omac8onfHmXKqw1x7dL5eAgqH/AllBXNMz66UPlEf0Nk6T04LQ7yN0SzBxv2BDcbkU5nv7uBt8UTVi2aF9xqTNB0xRNWLT5scqMxCYMz4gmrFO0WtynA4DLaFU9clWguc5uCoFkXT1yN76HfmeImBcHgrHDiakR7h1uUgC6j0HwUA/z6GdbWDnGLkoQGhQC/olX8YsPgnBjiz+/w1B7jdAXoaVQO8uNvHh7LIQV505zkVEXEIA+ifcmJykhhPkQzzYnKSGHaon3rHrr3caIyUqC2G/Yqp3lACtSUnrm63YOc5gEpVEv63VH4kXlUsqG1o/4DmC9DA3TtEV6pCWheDw0Q2ueA94/yag1AczMzgL5eoY+40LwRg7X0znpw2H3kbYnhGlYC/Ubt2RtukFfusvokFilqlRyfnZ1qNNurp1rtnYEzlt7j5VzK7FXDBZtGqx2lpfd4OZcye9VoNGd2KXju9ko0d2slKbHDy7mU2atGUuKCK0EWGaDIXjXoX07Baek9Xs6lzF416KajUCffiG0zzk1cdO+ECRMm/AsA/ARfGgXA5w92FAAAAABJRU5ErkJggg==">
+            <hr>
+            <h1>Grocery made easy.</h1>
+            <p>Duo takimata elitr sanctus et dolor, clita rebum stet stet elitr voluptua et.</p>
+            <input type="text" class="form-control" placeholder="Search items">
+
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="card">
+                        Cash-on-Delivery
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="card">
+                        Best Price
+                    </div>
+                </div>
+                <div class="col-lg- col-md-4 col-sm-4">
+                    <div class="card">
+                        Quality Service
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="store">
+
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">Promotions</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Fruits</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                        aria-controls="v-pills-messages" aria-selected="false">Vegetables</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Meat</a>
+                    <!-- <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Baking</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Canned Goods</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Dairy and Eggs</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Beverage</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Snacks</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Breads and Pastries</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Personal Care</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Medicine</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Household</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Baby and Toddler Care</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Pets</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Alcoholic Beverages</a> -->
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+
+                        <h1 class="text-center">Promotions</h1>
+
+                        <div class="row text-center">
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row text-center">
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+
+                        <h1 class="text-center">Fresh</h1>
+
+                        <div class="row text-center" id="fruits">
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+
+                        <h1 class="text-center">Frozen</h1>
+
+                        <div class="row text-center">
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/dusk/64/000000/ice-cream-cone.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ice Cream</h5>
+                                        <hr>
+                                        <p class="card-text">
+                                            <b>P 230</b> / 1.5 Liter
+                                        </p>
+
+                                        <button class="btn btn-info">Add to Cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/64/000000/sausages-.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hotdog</h5>
+                                        <hr>
+                                        <p class="card-text">
+                                            <b>P 100</b> / Kilo
+                                        </p>
+
+                                        <button class="btn btn-info">Add to Cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="https://img.icons8.com/color/48/000000/peas.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Green Peas</h5>
+                                        <hr>
+                                        <p class="card-text">
+                                            <b>P 80</b> / Kilo
+                                        </p>
+
+                                        <button class="btn btn-info">Add to Cart</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        <div class="row text-center">
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://img.icons8.com/cotton/75/000000/take-away-food.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="test.js"></script>
+
+</body>
+
+</html>

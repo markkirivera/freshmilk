@@ -1,0 +1,1199 @@
+{
+    "Fruits": [{
+            "name": "Avocado",
+            "id": "1",
+            "price": 100,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/avocado.png"
+        },
+        {
+            "name": "Pear",
+            "id": "2",
+            "price": 16,
+            "quantity": 15,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/48/000000/pear.png"
+        },
+        {
+            "name": "Watermelon",
+            "id": "3",
+            "price": 200,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/75/000000/watermelon.png"
+        },
+        {
+            "name": "Melon",
+            "id": "4",
+            "price": 190,
+            "quantity": 20,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/melon.png"
+        },
+        {
+            "name": "Lemon",
+            "id": "5",
+            "price": 15,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/cotton/75/000000/citrus.png"
+        },
+        {
+            "name": "Grapes",
+            "id": "6",
+            "price": 290,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/grape.png"
+        },
+        {
+            "name": "Orange",
+            "id": "7",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/orange.png"
+        },
+        {
+            "name": "Kiwi",
+            "id": "8",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/kiwi.png"
+        },
+        {
+            "name": "Plum",
+            "id": "9",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/48/000000/plum.png"
+        },
+        {
+            "name": "Banana",
+            "id": "10",
+            "price": 120,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/sweet-banana.png"
+        },
+        {
+            "name": "Pineapple",
+            "id": "11",
+            "price": 60,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/pineapple.png"
+        },
+        {
+            "name": "Dragon Fruit",
+            "id": "12",
+            "price": 210,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/dragon-fruit.png"
+        },
+        {
+            "name": "Peach",
+            "id": "13",
+            "price": 140,
+            "quantity": 15,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/peach.png"
+        },
+        {
+            "name": "Durian",
+            "id": "14",
+            "price": 190,
+            "quantity": 15,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/durian.png"
+        },
+        {
+            "name": "Soursop",
+            "id": "15",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/soursop.png"
+        },
+        {
+            "name": "Coconut",
+            "id": "16",
+            "price": 30,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/coconut.png"
+        },
+        {
+            "name": "Papaya",
+            "id": "17",
+            "price": 60,
+            "quantity": 20,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/75/000000/papaya.png"
+        },
+        {
+            "name": "Strawberry",
+            "id": "18",
+            "price": 120,
+            "quantity": 20,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/strawberry.png"
+        }
+    ],
+    "Vegetables": [
+        {
+            "name": "Tomato",
+            "id": "19",
+            "price": 60,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/tomato.png"
+        },
+        {
+            "name": "Chili",
+            "id": "20",
+            "price": 55,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/chili-pepper.png"
+        },
+        {
+            "name": "Eggplant",
+            "id": "21",
+            "price": 25,
+            "quantity": 15,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/eggplant.png"
+        },
+        {
+            "name": "Onion",
+            "id": "22",
+            "price": 80,
+            "quantity": 15,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/onion.png"
+        },
+        {
+            "name": "Garlic",
+            "id": "23",
+            "price": 76,
+            "quantity": 15,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/garlic.png"
+        },
+        {
+            "name": "Potato",
+            "id": "24",
+            "price": 70,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/potatoes-1.png"
+        },
+        {
+            "name": "Green Peas",
+            "id": "25",
+            "price": 67,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/soy.png"
+        },
+        {
+            "name": "Mushroom",
+            "id": "26",
+            "price": 160,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/mushroom.png"
+        },
+        {
+            "name": "Lettuce",
+            "id": "27",
+            "price": 120,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/lettuce-1.png"
+        },
+        {
+            "name": "Cabbage",
+            "id": "28",
+            "price": 110,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/cabbage.png"
+        },
+        {
+            "name": "Raddish",
+            "id": "29",
+            "price": 65,
+            "quantity": 5,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/radish.png"
+        },
+        {
+            "name": "Carrots",
+            "id": "30",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/big-carrot-.png"
+        }
+    ],
+    "Meat": [
+        {
+            "name": "Meat",
+            "id": "31",
+            "price": 210,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/office/16/000000/steak-rare.png"
+        },
+        {
+            "name": "Chicken",
+            "id": "32",
+            "price": 200,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/thanksgiving.png"
+        },
+        {
+            "name": "Beef",
+            "id": "33",
+            "price": 290,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/steak-rare.png"
+        },
+        {
+            "name": "Lamb",
+            "id": "34",
+            "price": 390,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/rack-of-lamb.png"
+        },
+        {
+            "name": "Salami",
+            "id": "35",
+            "price": 120,
+            "quantity": 12,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/salami-meat.png"
+        },
+        {
+            "name": "Sausage",
+            "id": "36",
+            "price": 110,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/meat-sausage.png"
+        },
+        {
+            "name": "Bacon",
+            "id": "37",
+            "price": 210,
+            "quantity": 10,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/cotton/64/000000/bacon.png"
+        }
+    ],
+    "Seafood": [{
+            "name": "Fish",
+            "id": "38",
+            "price": 220,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/tuna-steak.png"
+        },
+        {
+            "name": "Crab",
+            "id": "39",
+            "price": 310,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/crab.png"
+        },
+        {
+            "name": "Shrimp",
+            "id": "40",
+            "price": 280,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/shrimp.png"
+        },
+        {
+            "name": "Squid",
+            "id": "41",
+            "price": 205,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/squid.png"
+        },
+        {
+            "name": "Clam",
+            "id": "42",
+            "price": 170,
+            "quantity": 8,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/office/50/000000/shellfish.png"
+        }
+    ],
+    "Cooking": [{
+            "name": "Olive Oil",
+            "id": "43",
+            "price": 120,
+            "quantity": 12,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/color/48/000000/olive-oil.png"
+        },
+        {
+            "name": "Salt",
+            "id": "44",
+            "price": 35,
+            "quantity": 20,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/salt-shaker.png"
+        },
+        {
+            "name": "Mustard",
+            "id": "45",
+            "price": 65,
+            "quantity": 10,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/office/40/000000/mustard.png"
+        },
+        {
+            "name": "Ketchup",
+            "id": "46",
+            "price": 35,
+            "quantity": 10,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/office/40/000000/ketchup.png"
+        },
+        {
+            "name": "Salad Dressing",
+            "id": "47",
+            "price": 68,
+            "quantity": 8,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/cotton/64/000000/dressing.png"
+        },
+        {
+            "name": "Pasta",
+            "id": "48",
+            "price": 120,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/spaghetti.png"
+        },
+        {
+            "name": "Worcestershire Sauce",
+            "id": "49",
+            "price": 45,
+            "quantity": 9,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/office/40/000000/worcestershire-sauce.png"
+        }
+    ],
+    "Baking": [
+        {
+            "name": "Flour",
+            "id": "50",
+            "price": 30,
+            "quantity": 20,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/sack-of-flour.png"
+        },
+        {
+            "name": "Peanut",
+            "id": "51",
+            "price": 85,
+            "quantity": 10,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/color/48/000000/peanuts.png"
+        },
+        {
+            "name": "Honey",
+            "id": "52",
+            "price": 120,
+            "quantity": 12,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/color/48/000000/honey.png"
+        },
+        {
+            "name": "Chocolate",
+            "id": "53",
+            "price": 130,
+            "quantity": 15,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/cotton/64/000000/chocolate-bar.png"
+        },
+        {
+            "name": "Pancake Mix",
+            "id": "54",
+            "price": 100,
+            "quantity": 10,
+            "unit": "/Box",
+            "image": "https://img.icons8.com/dusk/64/000000/pancakes.png"
+        },
+        {
+            "name": "Sugar",
+            "id": "55",
+            "price": 50,
+            "quantity": 20,
+            "unit": "/Kilo",
+            "image": "https://img.icons8.com/office/60/000000/spoon-of-sugar.png"
+        }
+    ],
+    "Beverages": [
+        {
+            "name": "Mineral Water",
+            "id": "56",
+            "price": 25,
+            "quantity": 20,
+            "unit": "/500 mL",
+            "image": "https://img.icons8.com/office/75/000000/bottle-of-water.png"
+        },
+        {
+            "name": "Coffee",
+            "id": "57",
+            "price": 20,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/cotton/64/000000/coffee-to-go.png"
+        },
+        {
+            "name": "Wine",
+            "id": "58",
+            "price": 270,
+            "quantity": 20,
+            "unit": "/1L",
+            "image": "https://img.icons8.com/color/75/000000/wine-bottle.png"
+        },
+        {
+            "name": "Orange Juice",
+            "id": "59",
+            "price": 29,
+            "quantity": 20,
+            "unit": "/350mL",
+            "image": "https://img.icons8.com/color/75/000000/orange-juice.png"
+        },
+        {
+            "name": "Soda",
+            "id": "60",
+            "price": 19,
+            "quantity": 20,
+            "unit": "/150mL",
+            "image": "https://img.icons8.com/cotton/64/000000/soda-bottle.png"
+        },
+        {
+            "name": "Green Tea",
+            "id": "61",
+            "price": 20,
+            "quantity": 20,
+            "unit": "/Sachet",
+            "image": "https://img.icons8.com/dusk/75/000000/tea.png"
+        },
+        {
+            "name": "Chocolate Drink",
+            "id": "62",
+            "price": 25,
+            "quantity": 20,
+            "unit": "/350mL",
+            "image": "https://img.icons8.com/dusk/64/000000/coffee-to-go.png"
+        },
+        {
+            "name": "Beer",
+            "id": "63",
+            "price": 120,
+            "quantity": 20,
+            "unit": "/Liter",
+            "image": "https://img.icons8.com/office/75/000000/beer-can.png"
+        }
+    ],
+    "Canned Goods": [
+        {
+            "name": "Spam",
+            "id": "64",
+            "price": 95,
+            "quantity": 20,
+            "unit": "/Can",
+            "image": "https://img.icons8.com/color/75/000000/spam-can.png"
+        },
+        {
+            "name": "Canned Tuna",
+            "id": "65",
+            "price": 69,
+            "quantity": 10,
+            "unit": "/Can",
+            "image": "https://img.icons8.com/dusk/64/000000/tin-can.png"
+        },
+        {
+            "name": "Canned Sardines",
+            "id": "66",
+            "price": 79,
+            "quantity": 20,
+            "unit": "/Can",
+            "image": "https://img.icons8.com/cotton/64/000000/canned-sardines.png"
+        }
+    ],
+    "Dairy and Eggs": [
+        {
+            "name": "Milk",
+            "id": "67",
+            "price": 90,
+            "quantity": 20,
+            "unit": "/1L",
+            "image": "https://img.icons8.com/ultraviolet/75/000000/milk-bottle.png"
+        },
+        {
+            "name": "Ice Pop",
+            "id": "68",
+            "price": 19,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/dusk/75/000000/ice-pop.png"
+        },
+        {
+            "name": "Yogurt",
+            "id": "69",
+            "price": 29,
+            "quantity": 20,
+            "unit": "/Cup",
+            "image": "https://img.icons8.com/dusk/64/000000/yogurt.png"
+        },
+        {
+            "name": "Milkshake",
+            "id": "70",
+            "price": 29,
+            "quantity": 20,
+            "unit": "/350mL",
+            "image": "https://img.icons8.com/cotton/64/000000/milkshake.png"
+        },
+        {
+            "name": "Ice Cream",
+            "id": "71",
+            "price": 240,
+            "quantity": 20,
+            "unit": "/1.5L",
+            "image": "https://img.icons8.com/dusk/64/000000/ice-cream-cone.png"
+        },
+        {
+            "name": "Cheese",
+            "id": "72",
+            "price": 78,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/color/75/000000/cheese.png"
+        },
+        {
+            "name": "Eggs",
+            "id": "73",
+            "price": 95,
+            "quantity": 50,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/ios/50/000000/eggs.png"
+        },
+        {
+            "name": "Sundae",
+            "id": "74",
+            "price": 26,
+            "quantity": 20,
+            "unit": "/Serving",
+            "image": "https://img.icons8.com/dusk/75/000000/burger-dip.png"
+        }
+    ],
+    "Snacks": [
+        {
+            "name": "Nachos",
+            "id": "75",
+            "price": 21,
+            "quantity": 20,
+            "unit": "/200g",
+            "image": "https://img.icons8.com/color/75/000000/nachos.png"
+        },
+        {
+            "name": "Cotton Candy",
+            "id": "76",
+            "price": 10,
+            "quantity": 20,
+            "unit": "/Serving",
+            "image": "https://img.icons8.com/color/75/000000/cotton-candy.png"
+        },
+        {
+            "name": "Milk Biscuit",
+            "id": "77",
+            "price": 12,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/dusk/64/000000/biscuits.png"
+        },
+        {
+            "name": "Pretzel",
+            "id": "78",
+            "price": 30,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/dusk/64/000000/bavarian-pretzel.png"
+        },
+        {
+            "name": "Crackers",
+            "id": "79",
+            "price": 12,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/cotton/64/000000/cookie.png"
+        },
+        {
+            "name": "Sandwich",
+            "id": "80",
+            "price": 25,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/cotton/64/000000/sandwich.png"
+        },
+        {
+            "name": "Beef Burger",
+            "id": "81",
+            "price": 105,
+            "quantity": 20,
+            "unit": "/Serving",
+            "image": "https://img.icons8.com/cotton/64/000000/beefburger.png"
+        }
+    ],
+    "Breads and Pastries": [
+        {
+            "name": "Cookies",
+            "id": "82",
+            "price": 55,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/color/75/000000/cookies.png"
+        },
+        {
+            "name": "Loaf Bread",
+            "id": "83",
+            "price": 59,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/cotton/64/000000/toast.png"
+        },
+        {
+            "name": "Bread",
+            "id": "84",
+            "price": 50,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/office/75/000000/bread.png"
+        },
+        {
+            "name": "Donut",
+            "id": "85",
+            "price": 250,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/doughnut.png"
+        },
+        {
+            "name": "Macaroon",
+            "id": "86",
+            "price": 190,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/macaron.png"
+        },
+        {
+            "name": "Cupcake",
+            "id": "87",
+            "price": 210,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/cotton/64/000000/cupcake-with-a-berry.png"
+        },
+        {
+            "name": "Cinnamon Roll",
+            "id": "88",
+            "price": 290,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/cinnamon-roll.png"
+        },
+        {
+            "name": "Cake",
+            "id": "89",
+            "price": 180,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/cotton/64/000000/cake.png"
+        },
+        {
+            "name": "Gingerbread",
+            "id": "90",
+            "price": 90,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/cotton/64/000000/gingerbread-man.png"
+        },
+        {
+            "name": "Croissant",
+            "id": "91",
+            "price": 49,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/cotton/64/000000/croissant.png"
+        },
+        {
+            "name": "Baguette",
+            "id": "92",
+            "price": 70,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/office/75/000000/baguette.png"
+        }
+    ],
+    "Personal Care": [
+        {
+            "name": "Soap",
+            "id": "93",
+            "price": 28,
+            "quantity": 20,
+            "unit": "/Pack",
+            "image": "https://img.icons8.com/dusk/64/000000/soap.png"
+        },
+        {
+            "name": "Liquid Soap",
+            "id": "94",
+            "price": 89,
+            "quantity": 20,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/color/75/000000/soap-dispenser.png"
+        },
+        {
+            "name": "Shaving Cream",
+            "id": "95",
+            "price": 120,
+            "quantity": 15,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/office/75/000000/shaving-cream.png"
+        },
+        {
+            "name": "Shampoo",
+            "id": "96",
+            "price": 79,
+            "quantity": 20,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/color/75/000000/shampoo-dispenser.png"
+        },
+        {
+            "name": "Toothbrush",
+            "id": "97",
+            "price": 60,
+            "quantity": 15,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/electric-toothbrush.png"
+        },
+        {
+            "name": "Toothpaste",
+            "id": "98",
+            "price": 110,
+            "quantity": 15,
+            "unit": "/Tube",
+            "image": "https://img.icons8.com/dusk/64/000000/toothpaste.png"
+        },
+        {
+            "name": "Makeup",
+            "id": "99",
+            "price": 190,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/face-powder.png"
+        },
+        {
+            "name": "Face Powder",
+            "id": "100",
+            "price": 39,
+            "quantity": 10,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/office/75/000000/powder.png"
+        },
+        {
+            "name": "Cosmetic Brush",
+            "id": "101",
+            "price": 50,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/cosmetic-brush.png"
+        },
+        {
+            "name": "Nail Polish",
+            "id": "102",
+            "price": 25,
+            "quantity": 20,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/cotton/64/000000/nail-polish.png"
+        },
+        {
+            "name": "Lipstick",
+            "id": "103",
+            "price": 68,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/cotton/64/000000/lipstick.png"
+        },
+        {
+            "name": "Perfume",
+            "id": "104",
+            "price": 450,
+            "quantity": 15,
+            "unit": "/100mL",
+            "image": "https://img.icons8.com/color/75/000000/perfume-bottle.png"
+        },
+        {
+            "name": "Deodorant",
+            "id": "105",
+            "price": 140,
+            "quantity": 20,
+            "unit": "/60mL",
+            "image": "https://img.icons8.com/color/75/000000/deodorant-spray.png"
+        },
+        {
+            "name": "Adult Diaper",
+            "id": "106",
+            "price": 90,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/nappy.png"
+        },
+        {
+            "name": "Razor",
+            "id": "107",
+            "price": 90,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/modern-razor.png"
+        },
+        {
+            "name": "Razor Blade",
+            "id": "108",
+            "price": 110,
+            "quantity": 20,
+            "unit": "Pack",
+            "image": "https://img.icons8.com/dusk/64/000000/blade.png"
+        },
+        {
+            "name": "Haircut Kit",
+            "id": "109",
+            "price": 100,
+            "quantity": 15,
+            "unit": "/Kit",
+            "image": "https://img.icons8.com/color/75/000000/barbershop.png"
+        },
+        {
+            "name": "Lotion",
+            "id": "110",
+            "price": 120,
+            "quantity": 20,
+            "unit": "/300mL",
+            "image": "https://img.icons8.com/cotton/64/000000/cream-tube.png"
+        }
+    ],
+    "Medicine": [
+        {
+            "name": "Medicine",
+            "id": "111",
+            "price": 120,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/cotton/64/000000/pills.png"
+        },
+        {
+            "name": "Food Supplement",
+            "id": "112",
+            "price": 150,
+            "quantity": 10,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/color/75/000000/supplement-bottle.png"
+        },
+        {
+            "name": "Antibacterial Ointment",
+            "id": "113",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/10g",
+            "image": "https://img.icons8.com/color/75/000000/antiseptic-cream.png"
+        },
+        {
+            "name": "Thermometer",
+            "id": "114",
+            "price": 190,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/office/75/000000/medical-thermometer.png"
+        },
+        {
+            "name": "First Aid Kit",
+            "id": "115",
+            "price": 490,
+            "quantity": 20,
+            "unit": "/Kit",
+            "image": "https://img.icons8.com/cotton/64/000000/doctors-bag.png"
+        },
+        {
+            "name": "Bandage",
+            "id": "116",
+            "price": 60,
+            "quantity": 30,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/bandage.png"
+        },
+        {
+            "name": "Eye Drop",
+            "id": "117",
+            "price": 80,
+            "quantity": 20,
+            "unit": "/10mL",
+            "image": "https://img.icons8.com/cotton/64/000000/vaccine-drop.png"
+        },
+        {
+            "name": "Multivitamin",
+            "id": "118",
+            "price": 190,
+            "quantity": 20,
+            "unit": "/Bottle",
+            "image": "https://img.icons8.com/color/75/000000/pills.png"
+        }
+    ],
+    "Household": [
+        {
+            "name": "Dishwasher",
+            "id": "119",
+            "price": 79,
+            "quantity": 10,
+            "unit": "/250mL",
+            "image": "https://img.icons8.com/dusk/64/000000/soap-dispenser.png"
+        },
+        {
+            "name": "Sponge",
+            "id": "120",
+            "price": 20,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "hhttps://img.icons8.com/ios/75/000000/sponge.png"
+        },
+        {
+            "name": "Spoon and Fork",
+            "id": "121",
+            "price": 210,
+            "quantity": 12,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/dining-room.png"
+        },
+        {
+            "name": "Pot",
+            "id": "122",
+            "price": 700,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/kitchen.png"
+        },
+        {
+            "name": "Rice Cooker",
+            "id": "123",
+            "price": 2500,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/dusk/75/000000/kitchen.png"
+        },
+        {
+            "name": "Basket",
+            "id": "124",
+            "price": 210,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/dusk/64/000000/ingredients.png"
+        },
+        {
+            "name": "Broom",
+            "id": "125",
+            "price": 120,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/dusk/64/000000/broom.png"
+        },
+        {
+            "name": "Bread Toaster",
+            "id": "126",
+            "price": 1300,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/toaster.png"
+        },
+        {
+            "name": "Laddle",
+            "id": "127",
+            "price": 75,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/ladle.png"
+        },
+        {
+            "name": "Tupperware",
+            "id": "128",
+            "price": 400,
+            "quantity": 20,
+            "unit": "/Set",
+            "image": "https://img.icons8.com/dotty/75/000000/tupperware.png"
+        },
+        {
+            "name": "Plate",
+            "id": "129",
+            "price": 300,
+            "quantity": 10,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/meal.png"
+        },
+        {
+            "name": "Drinking Glass",
+            "id": "130",
+            "price": 50,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/cotton/64/000000/water-glass.png"
+        },
+        {
+            "name": "Cup",
+            "id": "131",
+            "price": 60,
+            "quantity": 20,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/ultraviolet/75/000000/espresso-cup.png"
+        },
+        {
+            "name": "Toilet Paper",
+            "id": "132",
+            "price": 60,
+            "quantity": 20,
+            "unit": "/Roll",
+            "image": "https://img.icons8.com/color/75/000000/toilet-paper.png"
+        }
+    ],
+    "Baby and Toddler": [
+        {
+            "name": "Milk",
+            "id": "133",
+            "price": 250,
+            "quantity": 10,
+            "unit": "/300g",
+            "image": "https://img.icons8.com/plasticine/75/000000/tetra-pak.png"
+        },
+        {
+            "name": "Baby Food",
+            "id": "134",
+            "price": 70,
+            "quantity": 10,
+            "unit": "/Serving",
+            "image": "https://img.icons8.com/dusk/64/000000/porridge.png"
+        },
+        {
+            "name": "Baby Bottle",
+            "id": "135",
+            "price": 75,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/baby-bottle.png"
+        },
+        {
+            "name": "Sippy Cup",
+            "id": "136",
+            "price": 70,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/48/000000/sippy-cup.png"
+        },
+        {
+            "name": "Baby Diaper",
+            "id": "137",
+            "price": 390,
+            "quantity": 20,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/cotton/64/000000/nappy.png"
+        },
+        {
+            "name": "Baby Onesies",
+            "id": "138",
+            "price": 250,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/flat_round/64/000000/onesie.png"
+        },
+        {
+            "name": "Baby Napkin",
+            "id": "139",
+            "price": 190,
+            "quantity": 10,
+            "unit": "/Dozen",
+            "image": "https://img.icons8.com/color/75/000000/bib.png"
+        },
+        {
+            "name": "Maraccas",
+            "id": "140",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/rattle.png"
+        },
+        {
+            "name": "Pacifier",
+            "id": "141",
+            "price": 90,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/color/75/000000/pacifier.png"
+        }
+    ],
+    "Pets": [
+        {
+            "name": "Cat Food",
+            "id": "142",
+            "price": 120,
+            "quantity": 10,
+            "unit": "/Can",
+            "image": "https://img.icons8.com/cotton/64/000000/tin-can.png"
+        },
+        {
+            "name": "Dog Food",
+            "id": "143",
+            "price": 200,
+            "quantity": 10,
+            "unit": "/500g",
+            "image": "https://img.icons8.com/color/75/000000/cement-bag.png"
+        },
+        {
+            "name": "Yarn",
+            "id": "144",
+            "price": 20,
+            "quantity": 10,
+            "unit": "/Roll",
+            "image": "https://img.icons8.com/color/75/000000/clew.png"
+        },
+        {
+            "name": "Play Box",
+            "id": "145",
+            "price": 180,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/dusk/64/000000/box.png"
+        },
+        {
+            "name": "Dog Bone",
+            "id": "146",
+            "price": 150,
+            "quantity": 10,
+            "unit": "/Piece",
+            "image": "https://img.icons8.com/office/75/000000/dog-bone.png"
+        }
+    ]
+}
